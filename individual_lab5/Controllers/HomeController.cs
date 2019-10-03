@@ -14,7 +14,11 @@ namespace individual_lab5.Controllers
         {
             return View();
         }
-
+        public IActionResult Jay()
+        {
+            return View();
+        }
+        
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
